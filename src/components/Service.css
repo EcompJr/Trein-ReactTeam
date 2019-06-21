@@ -1,0 +1,114 @@
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #666666;
+    font-size: 16px;
+}
+
+section, summary {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+*:before,*:after{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.service-container {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.service-container li{
+    list-style: none;
+    text-align: center;
+    padding: 35px 15px 0px 15px;
+    min-height: 310px;
+    position: relative;
+    overflow: hidden;
+
+    display: list-item;
+}
+
+.service-container li:before {
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #ffffff #ffffff #145ea0 #145ea0;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+
+.service-container li .service-icon {
+    color: #1d6fb7;
+    font-size: 2.15em;
+}
+
+.service-container li .item-title {
+    font-weight: 800;
+    font-size: 1.15em;
+    padding-top: 6px;
+}
+
+.service-container li:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+.service-container li:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.service-container li,
+.service-container li:before,
+.service-container li .service-icon,
+.service-container li .item-title,
+.service-container li .item-description {
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.service-container li:hover {
+    background-color: #1d6fb7!important;
+}
+
+.service-container li:hover:before {
+    top: 0;
+    right: 0;
+}
+
+.service-container li:hover .service-icon,
+.service-container li:hover .item-title,
+.service-container li:hover .item-description {
+    color: #ffffff;
+}
+
+.service-container li p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+}
+

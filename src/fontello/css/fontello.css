@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?92124813');
+  src: url('../font/fontello.eot?92124813#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?92124813') format('woff2'),
+       url('../font/fontello.woff?92124813') format('woff'),
+       url('../font/fontello.ttf?92124813') format('truetype'),
+       url('../font/fontello.svg?92124813#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?92124813#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="li_"]:before, [class*=" li_"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.li_beaker:before { content: '\e800'; } /* '' */
+.li_truck:before { content: '\e801'; } /* '' */
+.li_music:before { content: '\e802'; } /* '' */
+.li_search:before { content: '\e803'; } /* '' */
+.li_mail:before { content: '\e804'; } /* '' */
+.li_heart:before { content: '\e805'; } /* '' */
+.li_star:before { content: '\e806'; } /* '' */
+.li_user:before { content: '\e807'; } /* '' */
+.li_videocam:before { content: '\e808'; } /* '' */
+.li_camera:before { content: '\e809'; } /* '' */
+.li_photo:before { content: '\e80a'; } /* '' */
+.li_attach:before { content: '\e80b'; } /* '' */
+.li_lock:before { content: '\e80c'; } /* '' */
+.li_eye:before { content: '\e80d'; } /* '' */
+.li_tag:before { content: '\e80e'; } /* '' */
+.li_thumbs-up:before { content: '\e80f'; } /* '' */
+.li_pencil:before { content: '\e810'; } /* '' */
+.li_comment:before { content: '\e811'; } /* '' */
+.li_location:before { content: '\e812'; } /* '' */
+.li_cup:before { content: '\e813'; } /* '' */
+.li_trash:before { content: '\e814'; } /* '' */
+.li_doc:before { content: '\e815'; } /* '' */
+.li_note:before { content: '\e816'; } /* '' */
+.li_cog:before { content: '\e817'; } /* '' */
+.li_params:before { content: '\e818'; } /* '' */
+.li_calendar:before { content: '\e819'; } /* '' */
+.li_sound:before { content: '\e81a'; } /* '' */
+.li_clock:before { content: '\e81b'; } /* '' */
+.li_lightbulb:before { content: '\e81c'; } /* '' */
+.li_tv:before { content: '\e81d'; } /* '' */
+.li_display:before { content: '\e81e'; } /* '' */
+.li_phone:before { content: '\e81f'; } /* '' */
+.li_cd:before { content: '\e820'; } /* '' */
+.li_inbox:before { content: '\e821'; } /* '' */
+.li_globe:before { content: '\e822'; } /* '' */
+.li_paper-plane:before { content: '\e823'; } /* '' */
+.li_cloud:before { content: '\e824'; } /* '' */
+.li_graduation-cap:before { content: '\e825'; } /* '' */
+.li_megaphone:before { content: '\e826'; } /* '' */
+.li_database:before { content: '\e827'; } /* '' */
+.li_key:before { content: '\e828'; } /* '' */
+.li_fire:before { content: '\e829'; } /* '' */
+.li_banknote:before { content: '\e82a'; } /* '' */
+.li_food:before { content: '\e82b'; } /* '' */
+.li_shop:before { content: '\e82c'; } /* '' */
+.li_diamond:before { content: '\e82d'; } /* '' */
+.li_t-shirt:before { content: '\e82e'; } /* '' */
+.li_wallet:before { content: '\e82f'; } /* '' */
